@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<results>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="A"/>
+      <x value="600"/>
+      <y value="600"/>
+      <radius value="1"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="printAvlTree"/>
+    <parameters/>
+    <output>
+      <AvlGTree cardinality="1" height="1" maxImbalance="1">
+        <node key="A" value="(600,600)">
+          <emptyChild/>
+          <emptyChild/>
+        </node>
+      </AvlGTree>
+    </output>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="B"/>
+      <x value="500"/>
+      <y value="500"/>
+      <radius value="1"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="printAvlTree"/>
+    <parameters/>
+    <output>
+      <AvlGTree cardinality="2" height="2" maxImbalance="1">
+        <node key="A" value="(600,600)">
+          <emptyChild/>
+          <node key="B" value="(500,500)">
+            <emptyChild/>
+            <emptyChild/>
+          </node>
+        </node>
+      </AvlGTree>
+    </output>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="C"/>
+      <x value="400"/>
+      <y value="400"/>
+      <radius value="1"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="printAvlTree"/>
+    <parameters/>
+    <output>
+      <AvlGTree cardinality="3" height="2" maxImbalance="1">
+        <node key="B" value="(500,500)">
+          <node key="A" value="(600,600)">
+            <emptyChild/>
+            <emptyChild/>
+          </node>
+          <node key="C" value="(400,400)">
+            <emptyChild/>
+            <emptyChild/>
+          </node>
+        </node>
+      </AvlGTree>
+    </output>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="D"/>
+      <x value="300"/>
+      <y value="300"/>
+      <radius value="1"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="printAvlTree"/>
+    <parameters/>
+    <output>
+      <AvlGTree cardinality="4" height="3" maxImbalance="1">
+        <node key="B" value="(500,500)">
+          <node key="A" value="(600,600)">
+            <emptyChild/>
+            <emptyChild/>
+          </node>
+          <node key="C" value="(400,400)">
+            <emptyChild/>
+            <node key="D" value="(300,300)">
+              <emptyChild/>
+              <emptyChild/>
+            </node>
+          </node>
+        </node>
+      </AvlGTree>
+    </output>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="E"/>
+      <x value="200"/>
+      <y value="200"/>
+      <radius value="1"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="printAvlTree"/>
+    <parameters/>
+    <output>
+      <AvlGTree cardinality="5" height="3" maxImbalance="1">
+        <node key="B" value="(500,500)">
+          <node key="A" value="(600,600)">
+            <emptyChild/>
+            <emptyChild/>
+          </node>
+          <node key="D" value="(300,300)">
+            <node key="C" value="(400,400)">
+              <emptyChild/>
+              <emptyChild/>
+            </node>
+            <node key="E" value="(200,200)">
+              <emptyChild/>
+              <emptyChild/>
+            </node>
+          </node>
+        </node>
+      </AvlGTree>
+    </output>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="F"/>
+      <x value="100"/>
+      <y value="100"/>
+      <radius value="1"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="printAvlTree"/>
+    <parameters/>
+    <output>
+      <AvlGTree cardinality="6" height="3" maxImbalance="1">
+        <node key="D" value="(300,300)">
+          <node key="B" value="(500,500)">
+            <node key="A" value="(600,600)">
+              <emptyChild/>
+              <emptyChild/>
+            </node>
+            <node key="C" value="(400,400)">
+              <emptyChild/>
+              <emptyChild/>
+            </node>
+          </node>
+          <node key="E" value="(200,200)">
+            <emptyChild/>
+            <node key="F" value="(100,100)">
+              <emptyChild/>
+              <emptyChild/>
+            </node>
+          </node>
+        </node>
+      </AvlGTree>
+    </output>
+  </success>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="G"/>
+      <x value="800"/>
+      <y value="800"/>
+      <radius value="1"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="printAvlTree"/>
+    <parameters/>
+    <output>
+      <AvlGTree cardinality="7" height="3" maxImbalance="1">
+        <node key="D" value="(300,300)">
+          <node key="B" value="(500,500)">
+            <node key="A" value="(600,600)">
+              <emptyChild/>
+              <emptyChild/>
+            </node>
+            <node key="C" value="(400,400)">
+              <emptyChild/>
+              <emptyChild/>
+            </node>
+          </node>
+          <node key="F" value="(100,100)">
+            <node key="E" value="(200,200)">
+              <emptyChild/>
+              <emptyChild/>
+            </node>
+            <node key="G" value="(800,800)">
+              <emptyChild/>
+              <emptyChild/>
+            </node>
+          </node>
+        </node>
+      </AvlGTree>
+    </output>
+  </success>
+</results>

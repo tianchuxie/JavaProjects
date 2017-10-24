@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<commands xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" floors="5"  xsi:noNamespaceSchemaLocation="part3in.xsd">
+<createPerson id="1"  name="A" hour="17" minute="0" second="01" source="1" dest="5" weight="150" />
+<createPerson id="2"  name="B" hour="17" minute="0" second="02" source="1" dest="5" weight="249" />
+<createPerson id="3"  name="C" hour="17" minute="0" second="1" source="4" dest="1"  weight="150"/>
+<createPerson id="4"  name="D" hour="17" minute="0" second="14" source="2" dest="4"  weight="150"/>
+<createPerson id="7"  name="E" hour="17" minute="0" second="1" source="2" dest="4"  weight="150"/>
+
+<createElevator id= "5" name="e1" initial="1" waitSec="10" maxSec="30" maxWeight="2500" />
+
+
+</commands>
